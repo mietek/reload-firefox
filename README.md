@@ -31,4 +31,4 @@ open -a /Applications/Firefox.app --args --start-debugger-server
 About
 -----
 
-Made by [Miëtek Bak](https://mietek.io).  Published under the [MIT X11 license](LICENSE.md).
+Made by [Miëtek Bak](https://mietek.io/).  Published under the [MIT X11 license](LICENSE.md).
