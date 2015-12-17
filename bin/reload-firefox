@@ -9,7 +9,7 @@ function reloadTab(tabs, n) {
     process.exit();
   } else {
     var tab = tabs[n];
-    if (tab.url.indexOf("localhost") !== -1) {
+    if (tab.url.indexOf("localhost") !== -1 || tab.url.indexOf("file:///") === 0) {
       tab.reload(function (err) {
           reloadTab(tabs, n + 1);
         });
